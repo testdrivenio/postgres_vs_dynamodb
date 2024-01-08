@@ -8,7 +8,7 @@ dynamodb = boto3.resource("dynamodb", endpoint_url="http://localhost:9999")
 table = dynamodb.Table("tasks-api")
 
 query_kwargs = {
-    "KeyConditionExpression": Key("PK").eq(f"#PK#{owner}") & Key("SK").eq(f"#SK#{task_id}"),
+    "KeyConditionExpression": Key("PK").eq(f"#TASK#{owner}") & Key("SK").eq(f"#TASK#{task_id}"),
 }
 task = response = table.query(**query_kwargs)["Items"][0]
 

@@ -29,14 +29,14 @@ client.create_table(
 
 TASKS = [
     {
-        "PK": "#PK#john@doe.com",
-        "SK": f"#SK#afb225e9-dd19-4803-9b72-51958a8d7202",
+        "PK": "#TASK#john@doe.com",
+        "SK": f"#TASK#afb225e9-dd19-4803-9b72-51958a8d7202",
         "id": "afb225e9-dd19-4803-9b72-51958a8d7202",
         "status": "OPEN",
         "owner": "john@doe.com",
         "title": "Buy milk",
-        "GS1PK": "#GS1PK#OPEN",
-        "GS1SK": f"#GS1SK#afb225e9-dd19-4803-9b72-51958a8d7202",
+        "GS1PK": "#TASK#OPEN",
+        "GS1SK": f"#TASK#afb225e9-dd19-4803-9b72-51958a8d7202",
     },
     {
         "PK": "#PK#john@doe.com",
@@ -45,8 +45,8 @@ TASKS = [
         "status": "CLOSED",
         "owner": "john@doe.com",
         "title": "Kiss your wife",
-        "GS1PK": "#GS1PK#CLOSED",
-        "GS1SK": f"#GS1SK#7b0f4bc8-4751-41f1-b3b1-23a935d81cd",
+        "GS1PK": "#TASK#CLOSED",
+        "GS1SK": f"#TASK#7b0f4bc8-4751-41f1-b3b1-23a935d81cd",
     },
 ]
 

@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   database:
-    image: "postgres:13-alpine"
+    image: "postgres:15-alpine"
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
@@ -16,6 +16,4 @@ services:
     container_name: dynamodb-local
     ports:
       - "9999:8000"
-#    volumes:
-#      - "./docker/dynamodb:/home/dynamodblocal/data"
     working_dir: /home/dynamodblocal
