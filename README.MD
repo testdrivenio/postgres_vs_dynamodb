@@ -1,6 +1,6 @@
 # DynamoDB vs. Postgres Examples
 
-This repository supports tutorial [DynamoDB vs. Postgres - Which database to choose for your Python project?](TODO: add link).
+This repository supports tutorial [DynamoDB vs. Postgres - Which database to choose for your Python project?](https://testdriven.io/blog/postgres-vs-dynamodb/).
 
 ## How to run the code
 ### Start the databases
